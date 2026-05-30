@@ -1,0 +1,1 @@
+This repo contains the dockerfile for a custom image of n8n. Thus enabling the desired features.
