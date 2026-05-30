@@ -10,6 +10,6 @@ COPY --from=alpine:3.22 /etc/apk /etc/apk
 RUN apk update && apk add --no-cache perl python3 py3-pip
 
 # Install the needed python libraries
-RUN pip3 install --no-cache-dir os datetime --break-system-packages
+RUN pip3 install --no-cache-dir requests --break-system-packages
 
 USER node
